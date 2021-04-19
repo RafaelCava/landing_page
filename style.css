@@ -25,12 +25,12 @@ section.main{
 
 .logo-menu{width:50%;}
 
-.items-menu{
+.itens-menu{
     width:50%;
     text-align: right;
 }
 
-.items-menu a{
+.itens-menu a{
     font-weight: bold;
     color:white;
     text-decoration: none;
@@ -38,17 +38,17 @@ section.main{
     margin:0 10px;
 }
 
-.items-menu a:hover{
+.itens-menu a:hover{
     border-bottom:2px solid #FFDD33;
 }
 
 
-.items-menu a.contact-btn{
+.itens-menu a.contact-btn{
     background-color:#0F3FD3;
     padding:10px 10px;
     border-radius:10px;
 }
-.items-menu a.contact-btn:hover{
+.itens-menu a.contact-btn:hover{
     border:0;
 }
 
