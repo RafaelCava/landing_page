@@ -14,3 +14,9 @@ deixando ja Responsivo.
 
 ## update-4
 nova section com imagens de checklist,
+
+## update-5
+add slickslider, usando jquery.
+
+## update-6
+terminando os ultimos testes.

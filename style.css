@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
@@ -8,8 +8,8 @@
 .center{
     display: flex;
     max-width: 1100px;
-    padding: 0 2%;
-    margin: 0 auto;
+    padding:0 2%;
+    margin:0 auto;
     flex-wrap: wrap;
 }
 
@@ -18,65 +18,50 @@ section.main{
     background-position: center;
     background-size: cover;
     min-height: 700px;
-    padding: 20px 0 80px 0;
+    padding:20px 0 80px 0;
 }
 
-.menu{
-    display: flex;
-    width: 100%;
-    cursor: pointer;
-}
+.menu{display: flex;width:100%;}
 
-.logo-menu{
-    width: 50%;
-}
+.logo-menu{width:50%;}
 
-.itens-menu{
-    width: 50%;
+.items-menu{
+    width:50%;
     text-align: right;
 }
 
-.itens-menu a{
+.items-menu a{
     font-weight: bold;
-    color: white;
+    color:white;
     text-decoration: none;
     display: inline-block;
-    margin: 0 10px;
-    cursor: pointer;
-}
-/* adiciona uma linha amarela embaixo do itens do menu ao passar o mouse */
-.itens-menu a:hover{
-    border-bottom: 2px solid #FFDD33;
-}
-/* manipulando só a tag "a" dentro da classe=contact-btn */
-.itens-menu a.contact-btn{
-    background-color: #0F3FD3;
-    padding: 10px 10px;
-    border-radius: 10px;
-}
-/* retirei a linha que aparece em baixo, somente do "entre em contato */
-.itens-menu a.contact-btn:hover{
-    border: 0;
+    margin:0 10px;
 }
 
-.mockup{
-    display: block;
-    width: 100%;
-    color: white;
-    text-align: center;
-    padding-top: 100px;
+.items-menu a:hover{
+    border-bottom:2px solid #FFDD33;
 }
+
+
+.items-menu a.contact-btn{
+    background-color:#0F3FD3;
+    padding:10px 10px;
+    border-radius:10px;
+}
+.items-menu a.contact-btn:hover{
+    border:0;
+}
+
+.mockup{display: block;width:100%;color:white;text-align:center;padding-top:100px;}
 
 .mockup h1{
-    font-size: 55px;
+    font-size: 50px;
 }
 
-.mockup img{
-    max-width: 100%;
-}
+.mockup img{max-width: 100%;}
 
 section.marcas{
-    padding: 100px 0;
+    padding:100px 0;
 }
 
 section.marcas img{
@@ -84,15 +69,15 @@ section.marcas img{
 }
 
 section.porque-nos{
-    padding: 40px 0;
-    background-color: #FBFCFE;
+    padding:40px 0;
+    background-color:  #FBFCFE;
+
 }
 
 section.porque-nos > .center > h2{
-    font-size: 44px;
+    font-size: 64px;
     text-align: center;
-    width: 100%;
-    margin-bottom: 2%;
+    width:100%;
 }
 
 section.porque-nos > .center{
@@ -101,27 +86,28 @@ section.porque-nos > .center{
 
 section.porque-nos > .center > p{
     font-size: 14px;
+    color:#ccc;
     text-align: center;
-    width: 100%;
+    width:100%;
 }
 
 .diferenciais{
     display: flex;
-    margin-top: 50px;
+    margin-top:50px;
 }
 
 .box-diferenciais{
-    box-shadow: 0px 20px 40px #2426721c;
-    width: 31%;
+    box-shadow: 0px 20px 40px #2426721C;
+    width:31%;
     margin-right: 2%;
-    padding: 10px 20px;
-    border-radius: 10px;
-}   
+    padding:10px 20px;
+    border-radius:10px;
+}
 
 .box-diferenciais h3{
-    font-size: 24px;
+    font-size: 28px;
     color:black;
-    margin: 20px 0;
+    margin:20px 0;
 }
 
 .box-diferenciais p{
@@ -129,22 +115,21 @@ section.porque-nos > .center > p{
     color: #7E92AC;
     margin-bottom: 20px;
 }
-/* inserindo background e deixando responsivo */
-section.cta {
-    background-image: url("/images/banner-meio.svg");
+
+section.cta{
+    background-image: url('images/banner_meio.svg');
     background-size: cover;
-    background-position:center;
-    padding: 20px 10px;
+    background-position: center;
+    padding:20px 10px;
     min-height: 200px;
-    color: white;
+    color:white;
     text-align: center;
 }
 
 section.cta h2,
 section.cta h4{
     font-weight: normal;
-    margin: 10px 0;
-    margin-bottom: 2%;
+    margin:10px 0;
 }
 
 section.cta h2{
@@ -153,8 +138,8 @@ section.cta h2{
 
 section.cta a{
     display: inline-block;
-    padding: 15px 30px;
-    border-radius: 7px;
+    padding:8px 15px;
+    border-radius:7px;
     font-weight: bold;
     font-size: 17px;
     background: #FFDD33;
@@ -162,82 +147,146 @@ section.cta a{
     color: #0F3FD3;
 }
 
-section.beneficos{
-    padding: 50px 0;
+section.beneficios{
+    padding:50px 0;
 }
 
 .lista-beneficios{
-    width: 50%;
-    margin-top: 8%;
+    width:40%;
+    margin-top:30px;
 }
-
-.lista-beneficios a{
-    display: inline-block;
-    padding: 15px 30px;
-    border-radius: 7px;
-    font-weight: bold;
-    font-size: 17px;
-    background: #255AFF;
-    text-decoration: none;
-    color: white;
-    margin-top: 2%;
-    margin-left: 2%;
-}
-
 
 .lista-beneficios h1{
-    color: black;
+    color:black;
     font-size: 40px;
 }
 
 .lista-beneficios p{
-    vertical-align: middle;
-    font-size: 14px;
-    color: #7E92AC
+    color: #7E92AC;
+   vertical-align: middle;
+   font-size: 14px;
 }
 
 .lista-beneficios span{
     display: inline-block;
     width: calc(100% - 70px);
-    
 }
 
 .lista-beneficios img{
     display: inline-block;
     vertical-align: middle;
-    width: 70px;
+    width:70px;
 }
-
 .img-beneficios{
-    width: 50%;
+    width: 60%;
 }
 
 .img-beneficios img{max-width: 100%;}
 
-/* design reativo para mobile */
+
+section.depoimentos{
+    background-color: #FBFCFE;
+    padding:40px 0;
+}
+
+section.depoimentos > h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider{
+    overflow:hidden;
+    padding:40px 0;   
+}
+
+.container-slider-single{
+    float: left;
+    background-color:white;
+    text-align: center;
+    padding:15px;
+    border-radius:10px;
+}
+
+.container-slider-single p{
+    margin:15px 0;
+    color:#7E92AC;
+    font-size: 14px;
+}
+
+.slick-slide {
+    margin-left:27px;
+
+  }
+
+  /* the parent */
+  .slick-list {
+    margin-left:-27px;
+   
+  }
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #373855;
+	color: #373855;
+}
+
+.slick-slide:focus { outline: none; }
+
 @media screen and (max-width: 768px) {
-    .lista-beneficios, .img-beneficios{
-        width: 100%;
+
+    .lista-beneficios,.img-beneficios{
+        width:100%;
         margin-bottom: 30px;
     }
-
     .diferenciais{
-        display: flex;
+        
         flex-wrap: wrap;
+       
+    }
+    .box-diferenciais{
+        
+        width:100%;
+        margin-right: 0;
+        
     }
 
-    .box-diferenciais{
-        width: 100%;
-        margin-right: 0;
-    }
+   
     section.marcas > .center{
         flex-wrap: nowrap;
         flex-direction: column;
         align-items: center;
     }
-
     section.marcas img{
         max-width: 300px;
-        width: 100%;
+        width:100%;
     }
 }
