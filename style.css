@@ -78,6 +78,7 @@ section.porque-nos > .center > h2{
     font-size: 64px;
     text-align: center;
     width:100%;
+    margin-bottom: 2%;
 }
 
 section.porque-nos > .center{
@@ -117,7 +118,7 @@ section.porque-nos > .center > p{
 }
 
 section.cta{
-    background-image: url('images/banner_meio.svg');
+    background-image: url('/images/banner-meio.svg');
     background-size: cover;
     background-position: center;
     padding:20px 10px;
@@ -130,6 +131,7 @@ section.cta h2,
 section.cta h4{
     font-weight: normal;
     margin:10px 0;
+    margin-bottom: 2%;
 }
 
 section.cta h2{
@@ -138,7 +140,7 @@ section.cta h2{
 
 section.cta a{
     display: inline-block;
-    padding:8px 15px;
+    padding:15px 30px;
     border-radius:7px;
     font-weight: bold;
     font-size: 17px;
@@ -154,6 +156,18 @@ section.beneficios{
 .lista-beneficios{
     width:40%;
     margin-top:30px;
+}
+
+.lista-beneficios a{
+    display: inline-block;
+    margin-left: 2%;
+    padding:15px 30px;
+    border-radius:7px;
+    font-weight: bold;
+    font-size: 17px;
+    background: #255AFF;
+    text-decoration: none;
+    color: white;
 }
 
 .lista-beneficios h1{
@@ -262,7 +276,6 @@ li.slick-active button{
 .slick-slide:focus { outline: none; }
 
 @media screen and (max-width: 768px) {
-
     .lista-beneficios,.img-beneficios{
         width:100%;
         margin-bottom: 30px;

@@ -20,3 +20,6 @@ add slickslider, usando jquery.
 
 ## update-6
 terminando os ultimos testes.
+
+## update-7
+slide pronto, funcional e estilizado.
