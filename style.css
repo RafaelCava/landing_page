@@ -39,7 +39,7 @@ section.main{
 }
 
 .itens-menu a:hover{
-    border-bottom:2px solid #FFDD33;
+    border-bottom:3px solid #FFDD33;
 }
 
 
@@ -151,6 +151,10 @@ section.cta a{
     color: #0F3FD3;
 }
 
+section.cta a:hover{
+    background: #b39a20;
+}
+
 section.beneficios{
     padding:50px 0;
 }
@@ -170,6 +174,10 @@ section.beneficios{
     background: #255AFF;
     text-decoration: none;
     color: white;
+}
+
+.lista-beneficios a:hover{
+    background: #1739a0;
 }
 
 .lista-beneficios h1{
@@ -322,7 +330,7 @@ li.slick-active button{
     border-color: #255AFF;
     margin: 10px auto;
     margin-top: 25px;
-    font-size: 16px;
+    font-size: 20px;
     max-width: 500px;
     width: 100%;
     height: 40px;
@@ -333,6 +341,18 @@ li.slick-active button{
 .form input[type=submit]:hover{
     background-color: #3c549b;
     border-color: #3c549b;
+}
+
+footer{
+    margin-top: 120px;
+    background: #255AFF;
+    padding: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
 }
 
 @media screen and (max-width: 768px) {
