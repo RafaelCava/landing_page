@@ -271,11 +271,65 @@ section.depoimentos > h1{
 }
 
 li.slick-active button{
-	background: #373855;
-	color: #373855;
+	background: #255AFF;
+	color: #255AFF;
 }
 
 .slick-slide:focus { outline: none; }
+
+.form{
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.form h1{
+    margin-bottom: 20px;
+}
+
+.form input[type=text],
+.form input[type=email]{
+    padding: 25px;
+    padding-left: 15px;
+    display: block;
+    border-radius: 5px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #C3CCE8;
+}
+
+.form textarea{
+    margin: 10px auto;
+    padding: 10px;
+    resize: horizontal;
+    display: block;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #C3CCE8;
+}
+
+.form input[type=submit]{
+    padding-left: 10px;
+    display: block;
+    border-radius: 5px;
+    border-color: #255AFF;
+    margin: 10px auto;
+    margin-top: 25px;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background: #255AFF;
+}
 
 @media screen and (max-width: 768px) {
     .lista-beneficios,.img-beneficios{
