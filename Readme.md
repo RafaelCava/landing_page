@@ -31,3 +31,7 @@ tentando estilizar.
 
 ## up-2 
 Form inserido com sucesso e estilizado igual ao modelo
+
+## update-8
+inserindo rodapé com estilização
+responsivo
