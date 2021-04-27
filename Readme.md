@@ -16,7 +16,7 @@ deixando ja Responsivo.
 nova section com imagens de checklist,
 
 ## update-5
-add slickslider, usando jquery.
+add slickslider, usando **jquery**.
 
 ## update-6
 terminando os ultimos testes.
@@ -26,10 +26,10 @@ slide pronto, funcional e estilizado.
 
 
 ### up-1
-tentando inserir um form,
+tentando inserir um **form**,
 tentando estilizar.
 
-## up-2 
+### up-2 
 Form inserido com sucesso e estilizado igual ao modelo
 
 ## update-8
