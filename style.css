@@ -304,14 +304,14 @@ li.slick-active button{
 .form textarea{
     margin: 10px auto;
     padding: 10px;
-    resize: horizontal;
+    resize:none;
     display: block;
     border-radius: 5px;
     margin: 10px auto;
     font-size: 16px;
     max-width: 500px;
     width: 100%;
-    height: 120px;
+    height: 200px;
     border: 1px solid #C3CCE8;
 }
 
@@ -329,6 +329,10 @@ li.slick-active button{
     cursor: pointer;
     color: white;
     background: #255AFF;
+}
+.form input[type=submit]:hover{
+    background-color: #3c549b;
+    border-color: #3c549b;
 }
 
 @media screen and (max-width: 768px) {
