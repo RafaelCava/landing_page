@@ -28,3 +28,6 @@ slide pronto, funcional e estilizado.
 ### up-1
 tentando inserir um form,
 tentando estilizar.
+
+## up-2 
+Form inserido com sucesso e estilizado igual ao modelo
