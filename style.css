@@ -309,6 +309,13 @@ li.slick-active button{
     border: 1px solid #C3CCE8;
 }
 
+.form input[type=text]:focus{
+    outline: 0;
+}
+.form input[type=email]:focus{
+    outline: 0;
+}
+
 .form textarea{
     margin: 10px auto;
     padding: 10px;
@@ -321,6 +328,10 @@ li.slick-active button{
     width: 100%;
     height: 200px;
     border: 1px solid #C3CCE8;
+}
+
+.form textarea:focus{
+    outline: 0;
 }
 
 .form input[type=submit]{
