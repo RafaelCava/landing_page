@@ -14,7 +14,7 @@
 }
 
 section.main{
-    background-image: url('/images/bg.svg');
+    background-image: url('/Sitefinalizado/images/bg.svg');
     background-position: center;
     background-size: cover;
     min-height: 700px;
@@ -27,7 +27,14 @@ section.main{
 
 .itens-menu{
     width:50%;
-    text-align: right;
+}
+.itens-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.itens-menu li{
+    list-style-type: none;
 }
 
 .itens-menu a{
@@ -118,7 +125,7 @@ section.porque-nos > .center > p{
 }
 
 section.cta{
-    background-image: url('/images/banner-meio.svg');
+    background-image: url('/Sitefinalizado/images/banner-meio.svg');
     background-size: cover;
     background-position: center;
     padding:20px 10px;
@@ -391,8 +398,14 @@ footer a{
 
     .itens-menu{
         margin-top: 30px;
-        flex-direction: column;
-        align-items: center;
+    }
+
+    .itens-menu ul{
+        flex-direction:column;
+    }
+
+    .itens-menu li{
+        margin-top: 20px;
     }
    
     section.marcas > .center{
